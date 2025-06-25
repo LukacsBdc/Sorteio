@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       const totalNumbers = parseInt(document.getElementById('total-numbers').value);
       if (!totalNumbers || totalNumbers <= 0) {
-        alert('Informe um número total válido de jogadores.');
+        alert('Informe um número total de jogadores.');
         return;
       }
 
